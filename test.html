@@ -5,7 +5,7 @@
         <title> Test</title>
     </head>
     <body>
-       
+
         <h1> TEXTO</h1>
         <h1>Titulo h1</h1>
         <h2>Titulo h2</h2>
@@ -103,10 +103,11 @@
             </tr>
         </table>
         <hr>
-        
+
         <h1>FORMULARIOS</h1>
         <form>
             <input type="text">Hueco para introducir texto<br>
+            <textareas></textareas>Hueco para poder meter varias lineas
             <input type="number">Esto es para introducir números<br>
             <input type="password">Esto es para introducir password<br>
             <input type="text" value="abc">Esto es para introducir un valor por defecto<br>
@@ -118,7 +119,15 @@
                 <option>Cuatro</option>
             </select><br>
             <input type="submit"> Esto es para crear el botón de "enviar" de origen<br>
-            <input type="submit" value="Mandar">Esto es para crear el botón con el texto que queramos
+            <input type="submit" value="Mandar"disable>Esto es para crear el botón con el texto que queramos y el disable para desactivar<br>
+            <button>Enviar</button>Es lo mismo que un input pero con java puede hacer otras cosas
         </form>
+        <hr>
+        <form>
+            <label>Introduce tu nombre:<input type="text"></label> Con el label, activamos el hueco<br>
+            <label>Introduce tu contraseña: <input type="password"></label><br><br>
+            <button>Enviar datos</button>
+        </form>
+        <hr>        
     </body>
 </html> 
