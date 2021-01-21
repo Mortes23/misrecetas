@@ -1,0 +1,18 @@
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Aunque seleccionemos uno, te incluyen más por si no se ven, que se carguen las siguientes*/
+    font-size:25px;
+    font-weight: bold;
+    font-style: italic;
+    /*también se podría poner así: font: bold 5px verdana italic*/
+    text-align: center; 
+    line-height: 1.2;
+    text-decoration: underline;
+    color: #3a7685;
+
+
+    
+}
+
+/*Tamaños*/
+/*Todo lo que son tamaños se puede medir:
+px, %, em, rem*/

@@ -1,4 +1,17 @@
-/*ATRIBUTOS
+/*ESTILOS
  background-color: blue; --> Para poner el fondo con color
- padding:10px; -->Para poner un margen interior
- font-size:20px; --> El tamaño de la letra
+ padding:10px; -->Para poner un margen interior, el relleno
+ font-size:20px; --> El tamaño de la fuente. SE HEREDA 
+ border-radius:10px; --> Para hacer las esquinas redondeadas
+ border:1px solid black; --> Para poner borde (grosor-estilo-color)
+ text-decoration: underline; --> Subrayado
+ font-family:Verdana, Geneva, Tahoma, sans-serif; --> La fuente general de todo el documento
+ font-weight:Bold; --> Es para darle el grosor a la letra (negrita)
+ fontt-style:italic; -->Para hacerla cursiva
+ text-align:center (center, left, rigth, justify...); --> es para alinear el texto respecto al contenedor
+ line-height: 1.2; -->altura de linea entre renglones
+ text-decoration: underline red; -->Para el subrayado de color rojo, si no queremos color, no lo ponemos
+ color:red; -->Color del texto
+    El color se puede meter con el nombre, con el codigo #f14fda
+    También con el rgb (88,126,252)
+color: rgba(88,126,252,0.6);-->Con el último codigo, ponemos la transparencia
