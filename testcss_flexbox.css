@@ -1,0 +1,53 @@
+/*Flex Direction*/
+.padre-flexd{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hijo-flexd {
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height: 80px;
+}
+
+/*Flex wrap*/
+.padre-flexw{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hijo-flexw {
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height: 80px;
+}
+
+/*Justify-content*/
+.padre-flexj{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hijo-flexj {
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height:100px;
+}
