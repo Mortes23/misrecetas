@@ -50,4 +50,19 @@ ESTILOS RELACIONADOS CON CONTENEDORES
         margin: 100px 40px;-->si solo ponemos 2, hace referencia el primero a arriba y abajo y el segundo a izq y derecha
     padding: 10px; -->Es para el margen interior de una caja
 
- 
+PSEUDOCLASES
+    :hover; -->Cuando pases el ratón por encima, coge las caracteristicas nuevas
+    :first-child; -->Para modificar el formato del 1º parrafo o primer elemento
+    :last-child; --> Para modificar el formato del último parrafo o primer elemento
+    :nth-child(n); -->Donde n es numero y podemos combinarlo con operaciones
+
+LAYOUT
+    Para poder usar el posicionamiento por left, rigth, bottom o top, hay que el position:
+        position: relative; --> Para desplazar la caja en la dirección que pongamos sin alterar el resto de cajas
+        position: absolute; --> Para mover la caja desapareciendo del flujo del resto de elementos
+        position: fixed; --> Para fijar una caja
+        position:sticky; --> Cuando llegas a la caja que lo contiene, se queda bloqueado en la pantalla
+DISPLAY
+    block: -->Un bloque ocupa el 100% del ancho y la altura del contenido
+    inline: --> No tiene separación,se amolda al contenido, aunque pongamos altura o anchura,excepto los margenes laterales
+    inline-block: --> se le puede dar dimensiones
