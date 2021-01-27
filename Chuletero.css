@@ -67,19 +67,34 @@ DISPLAY
     inline: --> No tiene separación,se amolda al contenido, aunque pongamos altura o anchura,excepto los margenes laterales
     inline-block: --> se le puede dar dimensiones
 
-FLEXBOX
-    flex-direcction: (lo escala si se hace más grande)
-        row (default): en linea de izq a derecha
-        column: En columna de arriba a abajo
-        row-reverse y column-reverse: En sentido contrario
-    flex-wrap:
-        nowrap (default): lo agrupa y no lo baja a otro nivel
-        wrap: Lo mantiene al tamaño establecido haciendo un salto
-    justify-content: para agrupar hacia un lado los bloques
-        flex-star (default): agruparlos a la izquierda
-        flex-end: agrupa a la derecha del todo
-        center: los agrupa al centro
-        space-between: Deja en los extremos y el resto los centra
-        space-around: Deja una parte proporcional del margen entre los elementos
-        space-evenly: Reparte el espacio de forma equitativa
+FLEXBOX DEL CONTENEDOR (PADRE)
 
+    Según el eje horizontal
+        flex-direcction: (lo escala si se hace más grande)
+            row (default): en linea de izq a derecha
+            column: En columna de arriba a abajo
+            row-reverse y column-reverse: En sentido contrario
+        flex-wrap:
+            nowrap (default): lo agrupa y no lo baja a otro nivel
+            wrap: Lo mantiene al tamaño establecido haciendo un salto
+        justify-content: para agrupar hacia un lado los bloques
+            flex-star (default): agruparlos a la izquierda
+            flex-end: agrupa a la derecha del todo
+            center: los agrupa al centro
+            space-between: Deja en los extremos y el resto los centra
+            space-around: Deja una parte proporcional del margen entre los elementos
+            space-evenly: Reparte el espacio de forma equitativa
+    Según el eje vertical:
+        align-items: 
+            strech (default): Estrecho, por la altura
+            flex-start:Lo deja arriba y para la altura, manda el contenido
+            flex-end: Lo deja abajo
+            center: en el centro
+            baseline: Centrado con respecto al texto
+        align-content:
+            flex-start: Lo agrupa todo arriba, junto
+            flex-end: Lo agrupa todo abajo, junto
+            center: Lo agrupa todo en el centro, junto
+            space-between: el superior se pega, en inferior se pega abajo y el resto en el centro
+            space-around: Deja una parte proporcional del margen entre los elementos
+            space-evenly: Reparte el espacio de forma equitativa
