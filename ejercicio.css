@@ -4,6 +4,8 @@
     height: 500px;
 
     display: flex;
+    overflow-x: scroll;
+    
     
 }
 
@@ -12,10 +14,5 @@
     border: 2px solid black;
     height: 100px;
     width: 100px;
+    flex-shrink: 0;
 }
-
-.derecha{
-    margin-left: auto;
-
-}
-
