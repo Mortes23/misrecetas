@@ -98,3 +98,15 @@ FLEXBOX DEL CONTENEDOR (PADRE)
             space-between: el superior se pega, en inferior se pega abajo y el resto en el centro
             space-around: Deja una parte proporcional del margen entre los elementos
             space-evenly: Reparte el espacio de forma equitativa
+
+FLEXBOX DEL CONTENIDO (HIJO)
+    order: 2; -->Si ponemos un orden y el resto no tiene nada, se irá al final, ya que el resto se consideran order 0
+    flex-grow: Es como crecen los elementos
+        0; --> Es por defecto
+        1; --> Si ponemos el 1, indicamos que se llene del todo el contenedor, aunque se amplie o se reduzca la pantalla
+    flex-shrink; --> Es como se reducen los elementos
+        1; --> Es por defecto e indica que sí que pueden decrecer
+        0; --> NO deja decrecer, por lo que se salen del contenedor
+
+
+
