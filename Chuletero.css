@@ -107,6 +107,7 @@ FLEXBOX DEL CONTENIDO (HIJO)
     flex-shrink; --> Es como se reducen los elementos
         1; --> Es por defecto e indica que sí que pueden decrecer
         0; --> NO deja decrecer, por lo que se salen del contenedor
-
-
+    flex-basis: --> Es lo mismo que el width en row y lo mismo que height en column
+        Es generico para column o para row
+    align-self: --> Sirve para bajar un elemento verticalmente
 
