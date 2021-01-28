@@ -1,4 +1,9 @@
-/*ESTILOS RELACIONADOS CON TEXTOS
+/*RESET
+Para resetar todos los estilos que tiene de inicio el html
+cdn reset (en google)
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+
+ESTILOS RELACIONADOS CON TEXTOS
     font-size:20px; --> El tamaño de la fuente. SE HEREDA 
     font-family:Verdana, Geneva, Tahoma, sans-serif; --> La fuente general de todo el documento
     font-weight:Bold; --> Es para darle el grosor a la letra (negrita)
@@ -111,3 +116,5 @@ FLEXBOX DEL CONTENIDO (HIJO)
         Es generico para column o para row
     align-self: --> Sirve para bajar un elemento verticalmente
 
+RELATIVE
+    max-width: 1200px -->Para decir que el máximo es esa resolución

@@ -1,0 +1,13 @@
+* {box-sizing: border-box;}
+
+.padre {
+    background-color: blue;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /*Esto es para centrarlo*/
+    padding:0 1em; 
+}
+
+.hijo {
+    background-color: red;
+}
