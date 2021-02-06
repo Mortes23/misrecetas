@@ -71,6 +71,7 @@ DISPLAY
     block: -->Un bloque ocupa el 100% del ancho y la altura del contenido
     inline: --> No tiene separación,se amolda al contenido, aunque pongamos altura o anchura,excepto los margenes laterales
     inline-block: --> se le puede dar dimensiones
+    none: para que desaparezca el elemento
 
 FLEXBOX DEL CONTENEDOR (PADRE)
 
@@ -118,3 +119,5 @@ FLEXBOX DEL CONTENIDO (HIJO)
 
 RELATIVE
     max-width: 1200px -->Para decir que el máximo es esa resolución
+    min-width: 500px --> Para decir que el minimo es esa resolución
+    @media: --> Una forma de decirle al navegador, que en cierta anchira haga algo
