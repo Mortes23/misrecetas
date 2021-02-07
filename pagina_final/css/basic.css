@@ -1,0 +1,10 @@
+*{ 
+    box-sizing: border-box; /*Cuando se trabaje con anchuras, tambien tenga en cuenta los margins y los paddings*/
+    background-color:rgb(197, 240, 241);
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
