@@ -7,7 +7,7 @@
     margin-right: 0.5em;
 }
 
-.nav-main li:last-child{
+.nav-main li:last-child{ /*Para hacer referencia al último de la lista*/
     margin-right: 0;
 }
 

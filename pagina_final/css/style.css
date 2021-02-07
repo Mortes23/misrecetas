@@ -4,35 +4,8 @@
 @import 'nav.css';
 @import 'layout.css';
 @import 'text.css';
+@import 'grid.css';
+@import 'heading.css';
+@import 'image.css';
+@import 'utils.css'
 
-
-/*main*/
-
-#main{
-    display: flex;
-}
-/*Section*/
-
-#main section{
-    background-color: blue;
-    width: 70%;
-    display:flex;
-    flex-wrap: wrap;
-}
-
-#main section img{
-    width: 100%;
-    height: auto;
-}
-
-#main section div{
-    width: 49%;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-/*Aside*/
-#main aside{
-    background-color: red;
-    width: 30%;
-}

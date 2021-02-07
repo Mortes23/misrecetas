@@ -14,7 +14,9 @@ ESTILOS RELACIONADOS CON TEXTOS
     color:red; -->Color del texto
         El color se puede meter con el nombre, con el codigo #f14fda
         También con el rgb (88,126,252)
-    color: rgba(88,126,252,0.6);-->Con el último codigo, ponemos la transparencia
+    color: rgba(88,126,252,0.6);-->Con el último codigo, ponemos la 
+    text-transform: uppercase; --> Que por CSS se convierta todo en mayúsculas
+
 
 ESTILOS RELACIONADOS CON CONTENEDORES
     background-color: blue; --> Para poner el fondo con color 

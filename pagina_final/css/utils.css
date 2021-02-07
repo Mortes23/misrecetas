@@ -1,0 +1,19 @@
+/*Fondos*/
+.bg-dark{
+    background-color: rgb(2, 5, 54);
+}
+
+.bg-light{
+    background-color: rgb(157, 197, 229);
+}
+
+/*Corners*/
+
+.rounded {
+    border-radius: 10px;
+}
+
+/*border*/
+.br-1{
+    border: rgb(7, 7, 179) solid 1px;
+}
