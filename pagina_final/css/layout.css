@@ -61,3 +61,16 @@
 .pad-3{
     padding: 3em;
 }
+
+/*Desplazamiento bloque*/
+
+.blq-rigth-5{
+    position: relative;
+    left: 5px;
+}
+
+/*Desplazamiento texto*/
+
+.txt-rigth-5{
+    text-indent: 5px;
+}
