@@ -5,12 +5,30 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
-   /* background-color: yellow;*/
+}
+
+.row-full {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-right: -50vw;
+    margin-left: -50vw;
 }
 
 .block-center-row{
     display:flex;
     justify-content: center;
+}
+
+.block-right-row{
+    display:flex;
+    justify-content: right;
+}
+
+.block-left-row{
+    display:flex;
+    justify-content: left;
 }
 
 /*Margin*/
@@ -34,4 +52,12 @@
 /*Padding*/
 .pad-1{
     padding: 1em;
+}
+
+.pad-2{
+    padding: 2em;
+}
+
+.pad-3{
+    padding: 3em;
 }
