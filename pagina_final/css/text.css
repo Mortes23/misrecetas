@@ -24,6 +24,10 @@
     font-size: 22px;
 }
 
+.fnt-32{
+    font-size: 32px;
+}
+
 .txt-center{
     text-align: center;
 }
@@ -34,4 +38,22 @@
 
 .txt-left{
     text-align: left;
+}
+
+.line-small{
+    line-height: 1.2;
+}
+
+.line-normal{
+    line-height: 1.4;
+}
+
+/*Desplazamiento texto*/
+
+.txt-rigth-5{
+    text-indent: 5px;
+}
+
+.txt-rigth-20{
+    text-indent: 20px;
 }
