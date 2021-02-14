@@ -1,42 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
-
-    <head>
-        <meta charset="utf-8">
-        <title>Mis recetas</title>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <meta name="description" content="Página web sobre mis recetas">
-        <meta name="keywords" content="recetas, gastronomía, comer">
-        <link rel="icon" href="ico.png">
-        <link rel="stylesheet" href="css/style.css">  
-        <link rel="stylesheet" href=""> 
+<html lang="es"> <!--Este es para poner idioma a la página-->
+    <head> <!--Esta es toda la info que no ve el usuario-->
+        <meta charset="UTF-8"> <!--Esto da la codificación de la página -->
+        <title>Mis Recetas | Contactar</title><!--El título de la pagina, lo que sale arriba del navegador-->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> <!--Para que cuando la pagina sea respoinsive, con moviles no tenga zoom-->
+        <meta name="description" content="Primera página web sobre mis recetas donde sale explicado liena a linea"><!-- la descripción de la pagina, lo que sale debajo del título en google-->
+        <meta name="keywords" content="recetas, gastronomía, comer"><!--Las palabras clave de la pagina, para salir en las busquedas de google-->
+        <link rel="icon" href="images/ico.png"><!--Este link es para el icono de la página-->
+        <link rel="stylesheet" href="css/style.css"><!--Hace referencia a la hoa de estilos, la cual tiene todas las hojas css importadas-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"><!--ENlace de google fonts para meter un tipo de letra-->
+    
+    
     </head>
 
-    <body>
-        <div class="container">
-
-            <header id="header" class="block-center-row mb-3">                
-                <img src="images/logo.png" alt="Mis recetas">
-            </header>            
-
-            <nav class="nav-main fnt-lg block-center-row mb-2">
+    <body> <!--Todo esto es lo que va a ver el usuario-->
+        <div class="container">  
+            <header id="header" class="row-full block-center-row mb-2">
+                <a class="bg-light" href="index.html"><img class="bg-light" src="images/logo.png" alt="Mis Recetas"></a>
+            </header>
+            <nav class="nav-main fnt-l block-center-row mb-2">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li class="separator">|</li>
-                    <li><a href="recetas.html">Recetas</a></li>
-                    <li class="separator">|</li>
-                    <li>Contactar</li>                      
-                </ul>                             
+                    <li><a href="index.html">Inicio</li></a>
+                    <li>|</li>                    
+                    <li><a href="recetas.html">Recetas</li></a>                    
+                    <li>|</li>                    
+                    <li>Contactar</li>
+                </ul>
             </nav>
-
             <main>
-                <form class="block-center-row fnt-xl">
+                <form class="block-center-row fnt-l">
                     <div class="col-desk-5 col-tab-8 col-mob-12">
                         <div class="grid mb-05">
-                            <div style="text-align: right" class="col-3">
+                            <div class="col-3 txt-right">
                                 <label for="name">Nombre:</label>
                             </div>
                             <div class="col-9">
@@ -44,7 +40,7 @@
                             </div>                                                    
                         </div>
                         <div class="grid mb-05">
-                            <div style="text-align: right" class="col-3">
+                            <div class="col-3 txt-right">
                                 <label for="email">Email:</label>
                             </div>
                             <div class="col-9">
@@ -52,7 +48,7 @@
                             </div>                                                    
                         </div>
                         <div class="grid mb-05">
-                            <div style="text-align: right" class="col-3">
+                            <div class="col-3 txt-right">
                                 <label for="message">Mensaje:</label>
                             </div>
                             <div class="col-9">
@@ -61,41 +57,24 @@
                             </div>                                                    
                         </div>
                         <div class="block-center-row">
-                            <button class="btn primary fnt-lg rounded">Enviar mensaje</button>
+                            <button class="btn primary fnt-b rounded mb-2">Enviar mensaje</button>
 
                         </div>
-                        <!--<div class="grid mb-05">
-                            <label for="email" class="col-3">Email:</label>
-                            <input id="email"  class="input-basic col-9" type="text">     
-                        </div>
-                        <div class="grid mb-2">
-                            <label for="message" class="col-3">Mensaje: </label>
-                            <textarea id="message" class="input-basic col-9"></textarea>                        
-                        </div> 
-                        <div class="txt-center">
-                            <button>Enviar mensaje</button>
-                        </div> -->
                     </div>
                     
                     
 
 
                 </form>
-            </main>
+                
 
-          
 
-           
-    
 
-            <div class="mb-3"></div>    
-            <footer id="footer" class="pad-2 row-full block-center-row">
-                Misrecetas.com © 2021
+                         
+            </main>    
+            <footer id="footer" class="row-full block-center-row pad-1">
+                Misrecetas.com © 2021 
             </footer>
-
         </div>
-        
-       
     </body>
-
 </html>

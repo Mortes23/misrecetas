@@ -17,3 +17,8 @@ img{ /*De normal las imagenes, no ocupen más del 100% del contenedor*/
     max-width: 100%;
     height: auto;
 }
+
+input{
+    font-size: inherit;
+
+}

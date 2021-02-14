@@ -16,7 +16,7 @@ ESTILOS RELACIONADOS CON TEXTOS
         También con el rgb (88,126,252)
     color: rgba(88,126,252,0.6);-->Con el último codigo, ponemos la 
     text-transform: uppercase; --> Que por CSS se convierta todo en mayúsculas
-    
+    cursor: pointer; --> para cambiar el cursor
 
 
 ESTILOS RELACIONADOS CON CONTENEDORES
